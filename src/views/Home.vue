@@ -7,8 +7,8 @@
     </el-row>
     <el-row type="flex" justify="center">
       <el-col :sm="6">
-      <el-input placeholder="请输入商品名称搜索" prefix-icon="el-icon-search" v-model="input">
-      </el-input>
+        <el-input placeholder="请输入商品名称搜索" prefix-icon="el-icon-search" v-model="input">
+        </el-input>
       </el-col>
     </el-row>
     <el-row type="flex" justify="center" class="button">
@@ -33,9 +33,10 @@ export default {
 .home {
   .title {
     font-size: 40px;
+    margin-top: 60px;
     line-height: 140px;
   }
-  .button{
+  .button {
     margin-top: 30px;
   }
 }
